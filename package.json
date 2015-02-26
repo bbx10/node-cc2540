@@ -1,0 +1,30 @@
+{
+  "name": "cc2uart",
+  "version": "0.0.1",
+  "description": "Use the TI CC2540 Bluetooth Low Energy UART interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bbx10/node-cc2540.git"
+  },
+  "keywords": [
+    "cc2540",
+    "bluetooth",
+    "low",
+    "energy",
+    "btle",
+    "ble"
+  ],
+  "author": "bbx10node <bbx10node@gmail.com> (http://x10linux.blogspot.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bbx10/node-cc2540/issues"
+  },
+  "homepage": "https://github.com/bbx10/node-cc2540",
+  "dependencies": {
+    "noble-device": "^0.1.3"
+  }
+}
