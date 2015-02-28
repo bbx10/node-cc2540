@@ -23,16 +23,16 @@
  ****************************************************************************/
 
 /*
- * Discover and connect to all nRF8001 devices advertising a UART service.
+ * Discover and connect to all cc2540 devices advertising a UART service.
  * Sends a message every 3 seconds and shows anything coming from the remote
  * device. Run the echoCallback.ino sample program on the Arduino to quickly
  * verify communications is working on both directions on one or more devices.
  */
 
-var nrfuart = require('./index');
+var cc2uart = require('./index');
 
 console.log('bleEchoTst');
-nrfuart.discoverAll(function(ble_uart) {
+cc2uart.discoverAll(function(ble_uart) {
     'use strict';
     console.log('discoverAll');
     // enable disconnect notifications
