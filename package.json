@@ -1,6 +1,6 @@
 {
   "name": "cc2uart",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Use the TI CC2540 Bluetooth Low Energy UART interface",
   "main": "index.js",
   "scripts": {
